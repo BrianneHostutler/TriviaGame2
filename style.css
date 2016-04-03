@@ -16,7 +16,6 @@ a:visited {
 	color: white;
 }
 a:hover {
-	color: gray;
 	cursor: pointer;
 }
 #head{
@@ -52,6 +51,7 @@ button{
 	border-radius: 10px;
 	background-color: black;
 	font-size: 11pt;
+	cursor: pointer;
 }
 #next{
 	width: 60px;
