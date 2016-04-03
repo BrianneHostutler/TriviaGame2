@@ -11,6 +11,14 @@ header{
 a, u {
     text-decoration: none;
 }
+
+a:visited {
+	color: white;
+}
+a:hover {
+	color: gray;
+	cursor: pointer;
+}
 #head{
 	font-size: 40pt;
 	font-family: sans-serif;
@@ -37,18 +45,20 @@ ul {
     list-style-type: none;
     text-align: left;
 }
-#next{
+button{
 	color: white;
-	width: 60px;
 	border: 2px solid black;
 	text-align: center;
 	border-radius: 10px;
+	background-color: black;
+	font-size: 11pt;
+}
+#next{
+	width: 60px;
 	float: right;
 	margin-right: 30px;
 	margin-top: 49px;
-	background-color: black;
 }
-
 #start {
     display:none;
     width: 90px;
@@ -61,26 +71,10 @@ ul {
 	color: white;
 }
 #begin{
+	color: white;
+	padding: 10px;
+	font-size: 30pt;
 	margin-left: 30%;
-	margin-top: 100px;
-	padding: 20px;
-	font-size: 20pt;
-	font-family: sans-serif;
-	border: 2px solid black;
-    text-align: center;
-    border-radius: 10px;
-    width: 150px;
-    background-color: rgba(200, 200, 200, 0.3);
-}
-a:link{
-	color: black;
-	
+	margin-top: 10%;
 }
 
-a:visited {
-	color: black;
-}
-a:hover {
-	color: gray;
-	cursor: pointer;
-}
