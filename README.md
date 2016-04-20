@@ -1,3 +1,5 @@
-Trivia Game
+London Trivia Game
 
-http://shrouded-castle-63579.herokuapp.com/
+A short quiz game that tests the user's knowledge of London England
+
+https://londontriviagame.herokuapp.com/
